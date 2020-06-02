@@ -1,0 +1,70 @@
+.files {
+  font-weight: 600;
+  float:right;
+  margin-right: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.row-no-center {
+  display: flex;
+  flex-direction: row;
+}
+.col-no-center {
+  display: flex;
+  flex-direction: column;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.el-row {
+  height: 100%;
+  .el-col {
+    width: 95%;
+    height: 98%;
+    .form {
+      padding-top: 10px;
+      height: 90%;
+      width: 100%;
+      .el-container {
+        background-color: #FFF !important;
+        height: 100% !important;
+        min-height: 0%;
+        .el-main {
+          padding: 10px 15px;
+          margin: 0px;
+          .el-form {
+            .inputs {
+              height: 62px;
+            }
+            .small {
+              margin-bottom: 25px!important;
+              width: 130px;
+            }
+            .medium {
+              width: 250px;
+            }
+            .large {
+              width: 400px;
+            }
+            .xlarge {
+              width: 500px;
+            }
+            .el-form-item {
+              margin-bottom: 18px;
+              padding-right: 10px;
+            }
+            .sh {
+              padding-top: 21px!important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
